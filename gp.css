@@ -55,6 +55,7 @@ ul {list-style-type:none;}
 .blog__read-me {display:none}
 .blog__iread {display:none}
 .blog__last-comments {display:none}
+.blog__gifts {display:none}
 
 .navbar {background:#fff;text-transform:lowercase!important;border-bottom:10px solid #ced4fa}
 nav.navbar {position: sticky;top: 0px;z-index: 3;padding: 10px;}
