@@ -1,0 +1,179 @@
+/*удаленное*/
+.blog__gifts {display:none}
+.datebg {display:none}
+.left-menu__unread-notifications {display:none}
+.footer__infolinks {display:none}
+#page__admincontact {display:none}
+.m2 {display:none}
+.text-center+p,.text-center+div {display: none;}
+#footer{display:none;}
+[href="//mrazobast.beon.fun/birthdays/"] {display:none}
+[src="/i/user.png"] {display:none}
+[src="/i/blog.png"] {display:none}
+.blog_total_counter{display:none}
+.left-menu-text [action="/search"] {display:none}
+.post-title-date+span {display:none;}
+iv#commentpreviewplace+p {display: none;}
+.left-menu__friends {display:none;}
+.left-menu__friends_offline {display:none;}
+.user:before {display:none;}
+.post-title-date+a {display:none;}
+.postsiblings {display:none;}
+.py-4+ {display:none;}
+.flag {display:none;}
+.post-title-date {display:none;}
+ul {list-style-type:none;}
+[href="#footer"] { font-size: 0px;}
+.content h1{display:none}
+.small-text {display:none}
+.blog__read-me {display:none}
+.blog__iread {display:none}
+.blog__last-comments {display:none}
+
+/*общее*/
+.text-center img {border-radius:100%;filter: grayscale(100%);margin-top:5px!important;margin-bottom:5px!important;outline:1px solid #000;outline-offset:-5px;outline-radius:100%}
+.py-4 {width:90%!important;margin:auto}
+.content {width:65%!important;margin:auto;background-color:#000;padding:50px!important;border:5px solid #1e1e1e}
+.left-menu {width:30%;background:#000;outline:1px solid #000;outline-offset:-15px;padding:25px!important;border:5px solid #1e1e1e!important}
+.left-menu__user-notification,.left-menu__unread-message,.notifications__comments,.left-menu__friends,.left-menu__friends_offline,.blog__about,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments {background:#e1e1e1;outline:1px solid #000;outline-offset:-15px;padding:25px!important;margin-top:25px!important;margin-bottom:25px!important}
+p {margin-top: 0;margin-bottom: 0;}
+.post-content {background:#e1e1e1;outline:1px solid #000;outline-offset:-15px;padding:25px!important;}
+.comment-content {background:#e1e1e1;outline:1px solid #000;outline-offset:-15px;padding:25px!important;}
+p {margin-top: 0;margin-bottom: 0;}
+body {background: url(https://i.ibb.co/8c1tzRb/2.png)no-repeat center top fixed;background-color:#000;background-size:100%;}
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#000!important;transition: 0.5s;}
+a:hover {color:#fff!important;transition: 0.5s;}
+
+.left-menu h3 {background-color:#000!important;padding:5px!important;border:5px solid #1e1e1e;color:e1e1e1!important;text-align:center!important;text-transform:uppercase!important;font-weight:bold;font-size:10px!important}
+.left-menu h3::before {content:"⸻ ";color:#fff}
+.left-menu h3::after {content:" ⸻";color:#fff}
+.blog__tags div {text-transform:uppercase!important;font-weight:bold;font-size:10px!important}
+.blog__about div {text-transform:uppercase!important;font-weight:bold;font-size:10px!important;letter-spacing: .15em;}
+
+
+/*верхнее меню, хлебные крошки и заголовок*/
+div#app::before {content: ''; height: 250px;display: block;background: url(https://i.ibb.co/LgrZpJX/111.png)no-repeat center/100%;background-blend-mode:screen;box-shadow: 0px 0px 100px 0px #000000 inset;}
+.navbar {text-transform:lowercase!important;background:#e1e1e1;outline:1px solid #000;outline-offset:-15px;padding:25px!important;font-size:10px!important}
+nav.navbar {position: sticky;top: 0px;z-index: 3;}
+a.navbar-brand {visibility: hidden;text-transform:uppercase!important;font-size:20px!important}
+a.navbar-brand::before {content: "BYE - BYE!";visibility:visible;}
+
+.crumbs {text-transform:uppercase!important;padding:0.5% 12% 0.5% 13.6%;position: sticky;top: 95px;z-index: 3;background:#000;margin-top:0px!important;color:#fff!important;border:5px solid #1e1e1e}
+.pagination-goto {font-size:10px;color:#fff!important}
+[href="/"],[href="/p"] {font-size:10px;color:#fff!important}
+.pagination a {padding-left:5px;font-size:10px;color:#fff!important}
+.pagination {font-size: 0;color:#fff!important}
+
+/*редактировать, репост, удалить*/
+.post-opt a,.post-opt span,[href="#"] {font-size:10px;text-transform:uppercase!important;padding:5px!important;margin:1% 0% 5% 0%;font-weight:bold}
+.post__tags-list {margin-bottom:15px!important;font-weight:bold}
+
+/*окно ввода и эмоджи*/
+.textareabg,.alert-success{background:#e1e1e1;outline:1px solid #000;outline-offset:-15px;padding:25px!important;}
+.tag_bar {font-size:15px!important;}
+.messageform p,.messageform__taglinks,label,.textareabg div {font-size:13px;font-weight:bold;text-transform:uppercase!important;}
+
+.post-avatar img {filter: grayscale(100%);transition: 0.5s;}
+.post-avatar img:hover {filter: grayscale(0%);transition: 0.5s;}
+.user {font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+.sign {background:#fff;padding:5px!important;color:#000!important;font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+
+/*под записи*/
+p.quotation::before {content:"⤷ ";color:#fff}
+p.quotation {font-weight:bold!important;border:none!important;}
+.comment-box h2 {font-size:25px;text-align:center;text-transform:uppercase!important;font-weight:bold!important;color:#e1e1e1!important;margin-bottom:3%!important;margin-top:3%!important;}
+.comment-box h2::before {content:"⸻ ";color:#fff}
+.comment-box h2::after {content:" ⸻";color:#fff}
+.comment-box__message-partial {font-size:10px;text-align:right;text-transform:lowercase!important;font-weight:bold!important;color:#fff!important}
+
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {padding:5px!important;color:#fff!important;transition: 0.5s;}
+.fa-heart:hover {padding:5px!important;color:#000!important;transition: 0.5s;}
+.fa-retweet:hover {padding:5px!important;color:#000!important;transition: 0.5s;}
+.fa-bookmark:hover {padding:5px!important;color:#000!important;transition: 0.5s;}
+.fa-trash-alt:hover {padding:5px!important;color:#000!important;transition: 0.5s;}
+.fa-exclamation-triangle:hover {padding:5px!important;color:#000!important;transition: 0.5s;}
+.fa-quote-left:hover {padding:5px!important;color:#000!important;transition: 0.5s;}
+
+.post-content > div:first-child {text-align:center!important;margin-top:3%!important;margin-bottom:3%!important;}
+.comment-content > div:first-child {margin-top:3%!important;margin-bottom:3%!important;}
+.post-title {font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+.post-title::before {content:"⸻ ";color:#fff}
+.post-title::after {content:" ⸻";color:#fff}
+.post-text {margin:0px 0px 0px 10px!important;padding-bottom:10px;}
+.comment-text {margin:0px 0px 0px 5px!important;padding-bottom:10px;}
+
+/*кнопки*/
+input {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;border:5px solid #1e1e1e;background:#000!important}
+input:hover {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;background:#000!important;outline:1px solid #e1e1e1;outline-offset:-5px;}
+form.messageform select {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;border:5px solid #1e1e1e;background:#000!important}
+form.messageform select:hover {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;background:#000!important;outline:1px solid #e1e1e1;outline-offset:-5px;}
+form.messageform option {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;border:5px solid #1e1e1e;background:#000!important}
+form.messageform option:hover {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;background:#000!important;outline:1px solid #e1e1e1;outline-offset:-5px;}
+.btn-secondary {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;border:5px solid #1e1e1e;background:#000!important}
+.btn-secondary:hover {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;background:#000!important;outline:1px solid #e1e1e1;outline-offset:-5px;}
+.btn-primary {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;border:5px solid #1e1e1e;background:#000!important}
+.btn-primary:hover {color:#e1e1e1!important;font-weight: bold;padding:5px;margin-top:5px;margin-bottom:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;background:#000!important;outline:1px solid #e1e1e1;outline-offset:-5px;}
+.postdesc {border-radius:0px;border:1px solid #000}
+
+/* скролл */
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
+::-webkit-scrollbar {width: 17px;height: 17px;background-color: #e1e1e1;}
+::-webkit-scrollbar-thumb {border: 6px solid #000;background-color: #e1e1e1;min-height: 24px;min-width: 24px;}
+::-webkit-scrollbar-track {border: 8px solid #000;background-color: #e1e1e1;}
+
+[href="#footer"] {font-size: 0px;}
+[href="#footer"]:before {content: '† DOWN †';font-size:10px!important;position: fixed;left:1%;bottom:15%;color:#e1e1e1!important;font-weight: bold;padding:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;border:5px solid #1e1e1e;background:#000!important;text-transform: uppercase;writing-mode: vertical-lr;text-orientation: upright;}
+[href="#footer"]:hover:before {color:#e1e1e1!important;font-weight: bold;padding:5px;text-transform:uppercase!important;border-radius:0px;transition: 0.5s;background:#000!important;outline:1px solid #e1e1e1;outline-offset:-5px;}
+
+/*окно загрузки изображения*/
+.modal-content {background:#e1e1e1;outline:1px solid #000;outline-offset:-15px;padding:25px!important;border-radius:0px!important}
+h5.modal-title {color:#fff!important;text-transform:uppercase!important;}
+.mb-2 span {font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+.btn-outline-primary {border-radius:0px;font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+.alert,select#addtag-img-size,select#addtag-img-align,textarea#addtag-img-urls,select#upload-img-size,select#upload-img-align,p.clipboard-image-field,select.cb_img-size,select.cb_img-align,textarea#addtag-audio-urls,textarea#addtag-video-urls,textarea#add-inst-urls,select#addblog__select {font-size:10px;font-weight:bold;border:1px solid #000;border-radius:0px;}
+h5 {color:#fff!important;font-weight:bold;text-transform:uppercase!important;}
+
+div#beon-fnplayer {background: transparent;margin-bottom: 10px;}
+#fnplayer-slider > span {font-size:0px!important;} 
+#fnplayer-slider {background-color: #fff!important;height:4px}
+#fnplayer-slider-inner {width: 0%;background-color: #000;height:5px}
+#fnplayer-volume {background-color: #e1e1e1;}
+#fnplayer-volume-inner {width: 100%;background-color: #fff!important;height:4px!important;margin-bottom:3px}
+#fnplayer-volume-mask {border:none!important;}
+#fnplayer-stop {border: 0;background: #fff!important;margin-bottom: 1px;}
+#fnplayer-play {border-color: transparent transparent transparent #fff!important;margin-bottom: 1px;}
+
+@media (max-width: 800px) {
+body {background: url(https://i.ibb.co/8c1tzRb/2.png)repeat center top fixed;background-color:#000;background-size:100%;}
+.py-4 {width:100%!important;margin:auto}
+.content {width:100%!important;margin:auto;background-color:#000;padding:2.5px!important;border:5px solid #1e1e1e;margin-top:1%!important}
+.post-content {background:#e1e1e1;outline:1px solid #000;outline-offset:-5px;padding:2.5px!important;}
+.comment-content {background:#e1e1e1;outline:1px solid #000;outline-offset:-5px;padding:2.5px!important;}
+.left-menu {width:100%;background:#000;outline:1px solid #000;outline-offset:-5px;padding:2.5px!important;border:5px solid #1e1e1e!important}
+
+div#app {width:95%;margin:auto}
+div#app::before {content: ''; height: 50px;display: block;background: url(https://i.ibb.co/LgrZpJX/111.png)no-repeat center/100%;background-blend-mode:screen;box-shadow: 0px 0px 100px 0px #000000 inset;}
+.crumbs {position: static;text-transform:uppercase!important;padding:0.5%!important;background:#000;margin-top:0px!important;color:#fff!important;border:5px solid #1e1e1e;height:30px!important}
+
+.navbar {height:50px;position:static;top:0%;z-index:5;border-radius:0px;width:100%;margin:auto;text-transform:lowercase!important;background:#e1e1e1;outline:1px solid #000;outline-offset:-5px;padding:2.5px!important;font-size:10px!important}
+
+.navbar-brand {position:absolute;top:25%;left:7%;}
+.hamburger-menu {position:absolute;top:25%;right:7%;}
+
+.comment-content {padding:10px!important;}
+.post-content {padding:10px!important;}
+.textareabg,.alert-success{background:#e1e1e1;outline:1px solid #000;outline-offset:0px;padding:2.5px!important;}
+
+.crumb-item,[href="//beon.fun/p/avatars"],[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
+.menu__box {width:auto;height:auto;text-transform:uppercase!important;margin-top:13%;margin-right:5%;background:#e1e1e1;outline:1px solid #000;outline-offset:-5px;padding:2.5px!important;}
+.menu__item {font-size:10px;font-weight:bold;right:5%}
+
+.post-avatar img {width:50px!important}
+.sign {display:none}
+.post-text {margin:0px 0px 0px 5px!important;}
+.comment-text {margin:0px 0px 0px 5px!important;}
+.comment-box h2 {font-size:10px;text-align:center;text-transform:uppercase!important;font-weight:bold!important;color:#e1e1e1!important;margin-bottom:3%!important;margin-top:3%!important;}
+.text-center img {border-radius:100%;filter: grayscale(100%);margin-top:5px!important;margin-bottom:5px!important;outline:none;outline-offset:0px;outline-radius:100%}
+
+[href="#footer"]:before {position: fixed;left:1%;bottom:1%;}
+}
