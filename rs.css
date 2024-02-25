@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
+.blog__gifts {display:none}
 .blog__about {font-size:0px}
 [href="/p"] {font-size:0px!important}
 .blog__about [href="/design/disable"]::before {content: "Отключить оформление дневника";font-size: 10px;font-family: 'Roboto Slab', serif}
