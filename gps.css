@@ -5,7 +5,7 @@ a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoratio
 a:hover {color:#839afa!important;transition: 0.3s;}
 .content {background:#fff;padding:30px;margin-top:5%;width:69%;}
 div#app {width:80%;margin:auto;}
-.left-menu {position: sticky;top: 10.5%;margin-top: 5%;width:30%;background: #fff;font-weight: bold;padding:30px!important;font-size:10px;text-transform:lowercase!important;}
+.left-menu {position: sticky;top: 10.5%;margin-top: 5%;width:30%;background: #fff;font-weight: bold;padding:30px!important;font-size:10px;text-transform:lowercase!important;overflow: auto;height:430px}
 
 div.left-menu::before {content: ''; height: 150px;display: block;background: url(https://i.ibb.co/jvyvdPs/3.png)no-repeat center/100%;background-blend-mode:screen ;margin-bottom:10px}
 
@@ -22,6 +22,7 @@ div.blog__iread::before {content: ''; height: 35px;display: block;background: ur
 div.blog__tags::before {content: ''; height: 35px;display: block;background: url(https://i.ibb.co/nLy6Xyy/Free-icon-megaphone-4069752.png)no-repeat center;background-blend-mode:screen ;margin-top:10px;margin-bottom:10px}
 div.blog__last-comments::before {content: ''; height: 35px;display: block;background: url(https://i.ibb.co/MV8jJM7/Free-icon-keyboard-4069764.png)no-repeat center;background-blend-mode:screen ;margin-top:10px;margin-bottom:10px}
 
+[href="/design/disable"] img {display:none}
 .left-menu__unread-message {display:none}
 .notifications__comments {display:none}
 .left-menu__unread-notifications {display:none}
@@ -64,7 +65,7 @@ nav.navbar {position: sticky;top: 0px;z-index: 3;padding: 10px;}
 [href="/"],[href="/p"] {font-size:10px;font-weight:bold;}
 .pagination a {padding-left:5px;font-size:10px;font-weight:bold}
 .pagination {font-size: 0;}
-.navbar-brand {font-weight:bold;text-transform: uppercase;!important;color:#fc80b7!important;transition: 0.3s;}
+.navbar-brand {font-weight:bold;text-transform: uppercase;!important;color:#fc80b7!important;transition: 0.3s;font-size:15px!important}
 .navbar-brand:hover {color:#fca6cd!important;transition: 0.3s;}
 .post-opt a,.post-opt span,.row,[href="#"] {font-size:10px;font-weight:bold;text-transform:lowercase!important;}
 .textareabg,.alert-success{text-align:right;font-width:bold!important;text-transform:lowercase!important;background:#fff;}
@@ -112,7 +113,7 @@ div#beon-fnplayer {background: transparent;margin-bottom: 10px;}
 #fnplayer-slider {background-color: #2bfcb4!important;height:4px}
 #fnplayer-slider-inner {width: 0%;background-color: #fff;height:5px}
 #fnplayer-volume {background-color: #fff;}
-#fnplayer-volume-inner {width: 100%;background-color: #2bfcb4!important;height:4px!important;margin-bottom:3px}
+#fnplayer-volume-inner {width: 100%;background-color: #2bfcb4!important;height:4px!important;margin-bottom:3px;border:none}
 #fnplayer-volume-mask {border:none!important;}
 #fnplayer-stop {border: 0;background: #fc80b7!important;margin-bottom: 1px;}
 #fnplayer-play {border-color: transparent transparent transparent #fc80b7!important;margin-bottom: 1px;}
@@ -124,11 +125,12 @@ div#app {width:100%;}
 .content {width:90%;margin:auto;padding:10px;}
 .crumbs {width:90%;margin:auto;}
 .crumb-item {display:none}
-.left-menu {position: static;width:90%;margin:auto!important;padding:10px!important;}
+.left-menu {position: static;width:90%;margin:auto!important;padding:10px!important;overflow: auto;height:200px}
 .navbar {height:50px;position:fixed;top:0%;z-index:5;border-radius:0px;;border-bottom:10px solid #ced4fa;width:90%;margin:auto;padding:10px;}
-.navbar-brand {position:absolute;top:7%;left:7%;}
+.navbar-brand {position:absolute;top:7%!important;left:7%;font-size:25px!important;font-weight:bold!important}
 [href="//beon.fun/p/avatars"],[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
 .menu__box {width:auto;height:auto;background:#fff;text-transform:uppercase!important;padding:10px;margin-top:13%;margin-right:5%}
 .menu__item {font-size:10px;font-weight:bold;right:5%}
 .post-text {margin:0px 0px 0px 5px!important;}
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:10px!important}
 .comment-text {margin:0px 0px 0px 5px!important;}
