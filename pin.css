@@ -59,7 +59,9 @@ div.post-opt {color:#ff202c!important;text-transform:uppercase!important;font-we
 .comment-base > div.post-opt {color:#ff202c!important;text-transform:uppercase!important;font-weight:bold;font-size:10px!important;background:#f1f1f1!important;}
 .comment-base > div.post-opt::after {content:" ⸻ 分からないでしょう、これは違います";color:#ff202c}
 .post-text {margin:0px 0px 0px 10px!important;padding-bottom:10px;}
+.post-text img {border: 2px solid #000;border-image: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);border-image-slice: 2;}
 .comment-text {margin:0px 0px 0px 5px!important;padding-bottom:10px;}
+.comment-text img {border: 2px solid #000;border-image: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);border-image-slice: 2;}
 
 .post-title::before {content:"✦ "!important;color:#ff202c}
 .post-title::after {content:" ✦"!important;color:#ff202c}
