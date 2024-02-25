@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
 .bodybg {background:url(https://i.ibb.co/XXNwwqb/1.gif)no-repeat center top fixed;background-color:#000;background-size:100%;}
 a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#7b7b7b!important;transition: 0.3s;font-family: 'Roboto Slab', serif;}
 a:hover {color:#570404!important;transition: 0.3s;}
 [href="/design/disable"] {display: block;}
-.content {background: url(https://i.ibb.co/4dVKzTM/1.png)no-repeat left top/100%;width:70%!important;margin:auto;overflow: auto;height:595px;padding-top:3%;padding-bottom:3%;box-shadow: 0 0 50px #000!important;}
+.content {background: #000;width:70%!important;margin:auto;padding-top:3%;padding-bottom:3%;box-shadow: 0 0 50px #000!important;}
 div#app {width:90%;margin:auto;}
 p {margin-top: 0;margin-bottom: 0;}
 div.post-content {padding:5% 10% 5% 10%!important;}
 .post-row {margin-left:1%;margin-right:1%;border-top:1px solid #240202!important;padding-top:5%}
 .post-content > div:first-child {text-align:center;margin-bottom:3%;font-weight:bold;}
+
 .left-menu {display:none}
 .left-menu__unread-message {display:none}
 .notifications__comments {display:none}
@@ -101,23 +103,24 @@ h5 {color:#570404!important;font-weight:bold;text-transform:uppercase!important;
 
 @media (max-width: 800px) {
 body{width: 100%!important;}
-.bodybg {background:url(https://i.ibb.co/GMBxCf6/44.png)no-repeat center top fixed;background-color:#000;background-size:100%;}
-div.post-content {padding:1% 1% 1% 1%}
-div.comment-content {padding:1% 1% 1% 1%}
+.bodybg {background:url(https://i.ibb.co/51pdX6r/1.png)repeat center top fixed;background-color:#000;background-size:100%;}
+div.post-content {padding:1%}
+div.comment-content {padding:1%}
 .comment-row {padding:1% 1% 1% 1%!important;}
 [href="#footer"] {display:none}
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
-div#app {width:90%;margin:auto}
-.content {width:100%!important;margin:auto;background:#000;overflow: auto;height:490px;padding-top:3%;padding-bottom:3%;box-shadow: 0 0 25px #000!important}
+div#app {width:95%;margin:auto}
+.content {width:100%!important;margin:auto;background:#000;padding-top:3%;padding-bottom:3%;box-shadow: 0 0 25px #000!important}
 .crumbs {width:100%;margin:auto;}
 .crumb-item {display:none}
 .navbar {height:50px;position:static;top:0%;z-index:5;border-radius:0px;width:100%;margin:auto;padding:10px;box-shadow: 0 0 25px #000!important}
 a.navbar-brand {font-size: 0px;background: url(https://i.ibb.co/N9TM1s4/4.gif) no-repeat center;background-size: contain;width: 100px;height: 25px;display: block !important;position: static;left:20%;top:0%}
 .comment-content>div:first-child {text-align:center;font-size:20px!important;font-weight:bold;text-transform:uppercase!important;}
 .post-avatar img {width:50px;border-radius:5px}
-[href="//beon.fun/p/avatars"],[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
+[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
 .menu__box {width:auto;height:auto;background:#000;text-transform:uppercase!important;padding:10px;margin-top:13%;margin-right:5%;box-shadow: 0 0 25px #000!important}
 .menu__item {font-size:10px;font-weight:bold;right:5%;color:#7b7b7b!important}
 .post-text {margin:0px 0px 0px 5px!important;}
 .comment-text {margin:0px 0px 0px 5px!important;}
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:10px!important}
 }
