@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+[href="/design/disable"]::after {content:" !!!"!important;color:#ff202c}
+[href="/design/disable"] img {display:none}
+
+/*удаленное*/
+.blog__gifts {display:none}
+.datebg {display:none}
+.left-menu__unread-notifications {display:none}
+.footer__infolinks {display:none}
+#page__admincontact {display:none}
+.m2 {display:none}
+.text-center+p,.text-center+div {display: none;}
+#footer{display:none;}
+[href="//jqsl.beon.fun/birthdays/"] {display:none}
+[href="/drafts"] {display:none}
+[href="//jqsl.beon.fun/compliments/"] {display:none}
+[src="/i/user.png"] {display:none}
+[src="/i/blog.png"] {display:none}
+.blog_total_counter{display:none}
+.left-menu-text [action="/search"] {display:none}
+.post-title-date+span {display:none;}
+iv#commentpreviewplace+p {display: none;}
+.left-menu__friends {display:none;}
+.left-menu__friends_offline {display:none;}
+.user:before {display:none;}
+.post-title-date+a {display:none;}
+.postsiblings {display:none;}
+.py-4+ {display:none;}
+.flag {display:none;}
+.post-title-date {display:none;}
+ul {list-style-type:none;}
+[href="#footer"] { font-size: 0px;}
+.content h1{display:none}
+.small-text {display:none}
+.blog__read-me {display:none}
+.blog__iread {display:none}
+.blog__last-comments {display:none}
+
+/*общее*/
+p {margin-top: 0;margin-bottom: 0;}
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#000!important;transition: 0.5s;font-family: "Pixelify Sans", sans-serif;}
+a:hover {color:#141cc0!important;transition: 0.5s;}
+body{width:90%!important;margin:auto;background:#fff}
+.content {background: url(https://i.ibb.co/v1fKNVn/33.png)no-repeat center top fixed;background-size:100%;padding:10px!important;border:2px solid #90f7e4}
+.left-menu {padding:10px!important;border:2px solid #90f7e4!important;background:#fff;position: sticky;top: 65px;}
+.left-menu h3 {background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:10px!important;color:#fff;margin-top:10px;margin-bottom:10px}
+.blog__tags div {text-transform:uppercase!important;font-weight:bold;font-size:10px!important}
+.blog__about div {text-transform:uppercase!important;font-weight:bold;font-size:10px!important;}
+.tag::before {display:none}
+.tag::after {content:" ッ";color:#ff202c}
+.post-avatar img {width: 100px;height: 100px;object-fit: cover;}
+.post-avatar:before {content: 'а';background: url(https://i.ibb.co/Sxc5x9Z/321.gif)no-repeat;position: absolute;background-size: contain;width: 120px;height: 120px;margin-left:-10px!important;margin-top:-10px!important;font-size: 0;}
+
+.post-content {background:#fff;padding:10px!important;box-shadow: 5px 5px 8px #000;}
+.post-header {background:#f1f1f1!important;margin-bottom:10px;color:#fff!important;text-transform:uppercase!important;font-weight:bold;font-size:10px!important;}
+.comment-content {background:#fff;padding:10px!important;box-shadow: 5px 5px 8px #000;}
+.comment-header {background:#f1f1f1!important;margin-bottom:10px;color:#fff!important;text-transform:uppercase!important;font-weight:bold;font-size:10px!important;}
+div.post-opt {color:#ff202c!important;text-transform:uppercase!important;font-weight:bold;font-size:10px!important;}
+.comment-base > div.post-opt {color:#ff202c!important;text-transform:uppercase!important;font-weight:bold;font-size:10px!important;background:#f1f1f1!important;}
+.comment-base > div.post-opt::after {content:" ⸻ 分からないでしょう、これは違います";color:#ff202c}
+.post-text {margin:0px 0px 0px 10px!important;padding-bottom:10px;}
+.comment-text {margin:0px 0px 0px 5px!important;padding-bottom:10px;}
+
+.post-title::before {content:"✦ "!important;color:#ff202c}
+.post-title::after {content:" ✦"!important;color:#ff202c}
+.left-menu h3::before {content:"✦ ";color:#000}
+.left-menu h3::after {content:" カードにはあなたは雌犬だと書かれています";color:#fff;}
+.post-header::after {content:" クソ野郎、来いよ、このクソ野郎、ね？あなたは愚かにも私に襲いかかることに決めたでしょう？クソ臭いクソ野郎、ね？ほら、ここに来て、私を犯してみてください - 私があなたを自分で犯してやる、このクソ野郎のオナホール、くそー！さあ、バカ、あなたも家族全員もクソにしてください！犬のクソ、臭い田舎者、クソ、ビッチ、野郎！来い、この野郎、悪党、野郎！来いよ、クソ野郎！"!important;color:#141cc0}
+.comment-header::after {content:" 今はそのとおりですが、数日後にこの会話を頭の中で再生したら、どう聞こえるかわかります。あなたは建設業者ではないのに、なぜ馬鹿のふりをしているのですか、それを理解してください"!important;color:#141cc0}
+
+.post-title-user {font-size:10px!important;
+font-weight:bold!important;
+background: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);
+background-size: 200% auto;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textflow 0.2s linear infinite;}
+
+@keyframes textflow {
+from {background-position: 0% center}
+to {background-position: 200% center}
+}
+
+/*верхнее меню, хлебные крошки и заголовок*/
+nav.navbar {position: sticky;top: 0px;z-index: 3;}
+.navbar  {background:#fff;text-transform:lowercase!important;padding:5px!important;font-weight:bold;font-size:10px!important;border:2px solid #90f7e4}
+
+a.navbar-brand {visibility: hidden;text-transform:uppercase!important;font-size:13px!important;}
+.crumbs {text-align:end;font-size:20px;text-transform:uppercase!important;font-weight:bold;}
+.crumbs::before {content:"⸻ "!important;color:#ff202c}
+.crumbs::after {content:" ✦"!important;color:#ff202c}
+.pagination {font-size:20px!important;}
+.pagination-goto {visibility: hidden;text-transform:uppercase!important;font-size:0px!important;}
+
+a.navbar-brand::before {content: "くたばれ";visibility:visible;
+background: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);
+background-size: 200% auto;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: text 0.2s linear infinite;}
+
+@keyframes text{
+from {background-position: 0% center}
+to {background-position: 200% center}
+}
+
+.pc-menu a {background: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);
+background-size: 200% auto;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: texta 0.2s linear infinite;}
+
+@keyframes texta{
+from {background-position: 0% center}
+to {background-position: 200% center}
+}
+
+/*окно ввода и эмоджи*/
+.textareabg,.alert-success{background:#fff;padding:10px!important;box-shadow: 5px 5px 8px #000;padding:10px!important;margin-bottom:10px}
+.tag_bar {font-size:15px!important;color:#ff202c!important}
+.messageform p,.messageform__taglinks,label,.textareabg div {font-size:15px;font-weight:bold;text-transform:uppercase!important;}
+.sign {padding:5px!important;color:#000!important;font-size:10px;font-weight:bold;text-transform:uppercase!important;background-image: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+p.quotation::before {content:"・ . ｡✦ ┊  ";background-image: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+p.quotation {font-weight:bold!important;border:none!important;}
+
+.comment-box h2 {background:#fff;padding:10px!important;box-shadow: 5px 5px 8px #000;margin-bottom:25px;text-align:center;text-transform:uppercase!important;font-weight:bold!important;color:#141cc0!important;}
+.comment-box h2::before {content:"✦ "!important;color:#ff202c}
+.comment-box h2::after {content:" ✦"!important;color:#ff202c}
+
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {padding:5px!important;color:#ff202c!important;transition: 0.5s;}
+.fa-heart:hover {padding:5px!important;color:#141cc0!important;transition: 0.5s;}
+.fa-retweet:hover {padding:5px!important;color:#141cc0!important;transition: 0.5s;}
+.fa-bookmark:hover {padding:5px!important;color:#141cc0!important;transition: 0.5s;}
+.fa-trash-alt:hover {padding:5px!important;color:#141cc0!important;transition: 0.5s;}
+.fa-exclamation-triangle:hover {padding:5px!important;color:#141cc0!important;transition: 0.5s;}
+.fa-quote-left:hover {padding:5px!important;color:#141cc0!important;transition: 0.5s;}
+
+/*кнопки*/
+input {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;background-size:100%;}
+input:hover {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;color:#141cc0!important;background-size:100%;}
+
+form.messageform select {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;background-size:100%;}
+form.messageform select:hover {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;color:#141cc0!important;background-size:100%;}
+
+form.messageform option {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;background-size:100%;}
+form.messageform option:hover {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;color:#141cc0!important;background-size:100%;}
+
+.btn-secondary {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;background-size:100%;}
+.btn-secondary:hover {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;color:#141cc0!important;background-size:100%;}
+
+.btn-primary {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;background-size:100%;}
+.btn-primary:hover {transition: 0.5s;background: url(https://i.ibb.co/1dnVrHh/22.png)repeat center top;padding:5px!important;border:2px solid #90f7e4;text-transform:uppercase!important;font-weight:bold;font-size:15px!important;margin-top:5px;margin-bottom:5px;color:#141cc0!important;background-size:100%;}
+
+.postdesc {border-radius:0px;border:2px solid #90f7e4}
+
+/* скролл */
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
+::-webkit-scrollbar {width: 17px;height: 17px;background-color: #ff202c;}
+::-webkit-scrollbar-thumb {border: 6px solid #fff;background-color: #ff202c;min-height: 24px;min-width: 24px;}
+::-webkit-scrollbar-track {border: 8px solid #fff;background-color: #ff202c;}
+[href="#footer"] {font-size: 0px;}
+
+/*окно загрузки изображения*/
+.modal-content {border-radius:0px!important;padding:10px!important;border:2px solid #90f7e4!important;background:#fff}
+h5.modal-title {text-align:center;font-size:15px;text-transform:uppercase!important;font-weight:bold;background-image: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+h5.modal-title::before {content:"✦ "!important;color:#ff202c!important}
+.mb-2 span {font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+.btn-outline-primary {border-radius:0px;font-size:10px;font-weight:bold;text-transform:uppercase!important;}
+.alert,select#addtag-img-size,select#addtag-img-align,textarea#addtag-img-urls,select#upload-img-size,select#upload-img-align,p.clipboard-image-field,select.cb_img-size,select.cb_img-align,textarea#addtag-audio-urls,textarea#addtag-video-urls,textarea#add-inst-urls,select#addblog__select {font-size:10px;font-weight:bold;border:2px solid #90f7e4;border-radius:0px;}
+
+.col-md-4 div::before {content:"✦ ";color:#ff202c}
+.col-md-4 p::before {content:"✦ ";color:#ff202c}
+
+div#beon-fnplayer {background: transparent;margin-bottom: 10px;}
+#fnplayer-slider > span {font-size:0px!important;}
+#fnplayer-slider {background-color: #ff202c!important;height:4px}
+#fnplayer-slider-inner {width: 0%;background-color: #ff202c;height:5px}
+#fnplayer-volume {background-color: #fff;}
+#fnplayer-volume-inner {width: 100%;background-color: #ff202c!important;height:4px!important;margin-bottom:3px;border:none}
+#fnplayer-volume-mask {border:none!important;}
+#fnplayer-stop {border: 0;background: #ff202c!important;margin-bottom: 1px;}
+#fnplayer-play {border-color: transparent transparent transparent #ff202c!important;margin-bottom: 1px;}
+
+@media (max-width: 800px) {
+body {background-color:#fff;}
+.py-4 {width:100%!important;margin:auto}
+.content {width:100%!important;margin:auto;margin-top:5%!important;background: url(https://i.ibb.co/v1fKNVn/33.png)repeat center top fixed;background-size:100%;padding:2.5px!important;border:2px solid #90f7e4}
+#newpostform,.textareabg {margin-right:10px!important;margin-left:10px!important}
+.left-menu {width:100%;padding:2.5px!important;position: static}
+.post-text {margin:0px 0px 0px 5px!important;}
+.comment-text {margin:0px 0px 0px 5px!important;}
+.post-avatar img {width: 80px!important;height: 80px!important;object-fit: cover;}
+.post-avatar:before {content: 'а';background: url(https://i.ibb.co/Sxc5x9Z/321.gif)no-repeat;position: absolute;background-size: contain;width: 100px;height: 100px;margin-left:-11px!important;margin-top:-10px!important;font-size: 0;}
+.comment-box h2 {font-size:10px;text-align:center;text-transform:uppercase!important;font-weight:bold!important;}
+.post-content {margin:10px;padding:10px!important;}
+.comment-box {margin:0px 10px 0px 10px}
+.comment-content {padding:10px!important;}
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:10px!important}
+
+.crumb-item,[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
+.menu__box {width:auto;height:auto;text-transform:uppercase!important;margin-top:13%;margin-right:5%;background:#fff;padding:2.5px!important;border:2px solid #90f7e4!important;}
+.menu__item {font-size:10px;font-weight:bold;right:5%;background: linear-gradient(90deg, #ff0000, #ea00ff, #000cff, #00ff1e, #ffc000);
+background-size: 200% auto;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textx 0.2s linear infinite;}
+
+@keyframes textx {
+from {background-position: 0% center}
+to {background-position: 200% center}
+}
+}
