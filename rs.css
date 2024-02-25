@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
+.blog__about {font-size:0px}
+[href="/p"] {font-size:0px!important}
+.blog__about [href="/design/disable"]::before {content: "Отключить оформление дневника";font-size: 10px;font-family: 'Roboto Slab', serif}
+[href="/design/disable"] img {display:none}
 .emj-dropdown {display:none}
 .left-menu__unread-message {display:none}
 .notifications__comments {display:none}
@@ -77,7 +81,7 @@ a.navbar-brand {font-size: 0px;background: url(https://i.ibb.co/ZgDGz2D/123.gif)
 
 .user {font-size:10px;}
 .sign {display:none}
-.post-avatar img {border-radius:100%!important;width:50px!important;}
+.post-avatar img {border-radius:100%!important;width: 50px!important;height: 50px!important;object-fit: cover;}
 
 /*под записи*/
 p.quotation {font-size: 10px!important;font-weight:bold!important;border-color:#000;}
@@ -168,10 +172,10 @@ a.navbar-brand {font-size: 0px;background: url(https://i.ibb.co/ZgDGz2D/123.gif)
 [href="#footer"]:before {content: '❝';font-size:30px!important;position: fixed;color:#666!important;left:10%;top:0%;transition: 0.3s;}
 [href="#footer"]:hover:before { color: #fff!important;transition: 0.3s;}
 
-[href="//beon.fun/p/avatars"],[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
+[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
 .menu__box {width:auto;height:auto;background:#000;text-transform:uppercase!important;padding:10px;margin-top:13%;margin-right:5%;box-shadow: 0 0 10px #1c1c1c!important;}
 .menu__item {font-size:10px;font-weight:bold;right:5%}
-
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:10px}
 .post-text {margin:0px 0px 0px 5px!important;}
 .comment-text {margin:0px 0px 0px 5px!important;}
 }
