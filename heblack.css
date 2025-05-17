@@ -1,0 +1,183 @@
+[href="//beon.fun/games/shariki"] span {display:none!important}
+div#page__rendertime {display:none!important}
+.blog__gifts {display:none!important}
+.blog__about {font-size:0px!important}
+[href="/p"] {font-size:0px!important}
+.blog__about [href="/design/disable"]::before {content: "Отключить оформление дневника";font-size: 10px;}
+[href="/design/disable"] img {display:none!important}
+.left-menu__unread-message {display:none!important}
+.notifications__comments {display:none!important}
+.left-menu__unread-notifications {display:none!important}
+.footer__infolinks {display:none!important}
+#page__admincontact {display:none!important}
+.m2 {display:none!important}
+.text-center+p,.text-center+div {display: none!important;}
+#footer{display:none!important;}
+[href="//mrazobast.beon.fun/birthdays/"] {display:none!important}
+[src="/i/user.png"] {display:none!important}
+[src="/i/blog.png"] {display:none!important}
+.blog_total_counter{display:none!important}
+.left-menu-text [action="/search"] {display:none!important}
+div.left-menu {border:none!important;}
+.text-center img {display:none!important}
+.post-title-date+span {display:none!important;}
+iv#commentpreviewplace+p {display: none!important;}
+.left-menu__friends {display:none!important;}
+.left-menu__friends_offline {display:none!important;}
+.user:before {display:none!important;}
+.post-title-date+a {display:none!important;}
+.postsiblings {display:none!important;}
+.py-4+ {display:none!important;}
+.flag {display:none!important;}
+.post-title-date {display:none!important;}
+ul {list-style-type:none!important;}
+[href="#footer"] {font-size: 0px!important;}
+.content h1{display:none!important}
+.small-text {display:none!important}
+.blog__read-me {display:none!important}
+.blog__iread {display:none!important}
+.blog__last-comments {display:none!important}
+[src="//beon.fun/i/offline.png"] {display:none}
+span.pagination-goto {display:none}
+
+/*общее*/
+.py-4 {margin-left:5px!important;margin-right:5px!important}
+div#app {width:90%;margin:auto;background-color:#000!important;box-shadow: 0 0 10px #000000!important;}
+.bodybg {background: url(https://i.ibb.co/xS64nkt0/34295197-textured-black-background.jpg)repeat center top fixed;background-size:100%;background-color:#000;}
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#666666!important;transition: 0.3s;}
+a:hover {color:#cccccc!important;transition: 0.3s;}
+p {margin-top: 0;margin-bottom: 0;}
+
+/*изображения*/
+img.imagefsme {filter: grayscale(50%);transition: 0.3s;}
+img.imagefsme:hover {filter: grayscale(0);transition: 0.3s;}
+
+/*пост и коммы*/
+div.post-header {width:50%;border-left:2px solid #ccc!important;padding-left:5px;font-size:5px!important;margin-bottom:1%;padding-bottom:5px;text-transform:lowercase!important;}
+.post-content > div:first-child {border-bottom:2px solid #1f1f1f;}
+div.post-content {border:1px dashed #1f1f1f!important;padding:15px;margin-bottom:1.5%!important;margin-top:1.5%!important;background-color:#000;}
+div.post-text {margin-left:15px}
+div.post-row {margin-top:15px}
+
+.comment-content > div:first-child {margin-bottom:1%;border-bottom:1px dashed #1f1f1f!important;padding-bottom:5px;text-transform:lowercase!important;font-size:5px!important;}
+div.post-page {width:95%;margin:auto;}
+div.comment-box {width:60%;margin:auto;background-color:#000;}
+div.comment-base {margin-left:15px!important}
+div.comment-row {margin-top:15px!important}
+.comment-box h2 {display:none!important}
+
+/*цитата*/
+p.quotation {font-size: 9px!important;font-weight:bold!important;border-color:#ccc;}
+
+/*ава и подпись*/
+.post-avatar img {width: 80px;height: 80px;object-fit: cover;filter: grayscale(50%);transition: 0.3s;}
+.post-avatar img:hover {filter: grayscale(0);transition: 0.3s;}
+.post-avatar:before {content: "";background: url(https://i.ibb.co/tMbDcnpV/picmix-com-2082229.gif)no-repeat;position: absolute;background-size: contain;width:92px;height:92px;margin-left:-6px!important;margin-top:-5px!important;font-size: 0;}
+div.sign {display:none!important}
+.user {font-size:10px!important;}
+
+/*вставная ссылка*/
+.link-container {color:#ccc!important;text-decoration: none!important;transition: 0.3s;}
+.link-container:hover {color:#ccc!important; transition: 0.3s;}
+.fa-link::before {content:"";font-size:10px!important}
+
+/*верхнее меню*/
+ul {list-style-type:"- "!important; text-transform: lowercase!important;;}
+.navbar {background:#000;text-transform:lowercase!important;}
+nav.navbar {position: sticky;top: 0px;z-index: 3;padding: 10px;}
+.navbar-brand::before {content:"‎— BEON";font-size:25px!important}
+.navbar-brand {font-weight:bold;text-transform: uppercase;!important;font-size:0px!important}
+
+/*дата*/
+div.datebg {padding-left:2%;background: url(https://i.ibb.co/xS64nkt0/34295197-textured-black-background.jpg)repeat center top;background-size:100%;background-color:#000;border:1px solid #ccc!important;text-align:center;text-transform: uppercase;!important;font-size:9px!important}
+
+/*навигация*/
+div.crumbs {padding-left:2%;padding-right:2%;background: url(https://i.ibb.co/xS64nkt0/34295197-textured-black-background.jpg)repeat center top;background-size:100%;background-color:#000;border:1px solid #ccc!important;font-weight:bold!important;}
+[href="/"],[href="/p"] {font-size:auto;}
+[href="/"]:hover {color:#ccc!important;transition: 0.3s;}
+[href="/p"]:hover {color:#ccc!important;transition: 0.3s;}
+.pagination a {font-size:0px!important}
+.pagination a::before {content:" ⟡ ";font-size:15px!important;margin-left:1%;margin-right:1%;}
+.pagination a:hover {color:#ccc!important;transition: 0.3s;}
+.pagination {font-size: 0;}
+
+/*боковое меню*/
+div.blog__about::before {content: ''; height: 250px;display: block;background: url(https://i.ibb.co/twdTrMrQ/111.png)no-repeat center/100%;background-blend-mode:screen;margin-bottom:15px;margin-top:5px;border:1px solid #ccc!important;}
+.left-menu {background-color: rgba(0, 0, 0, 0.0);padding:5px!important;text-transform:lowercase!important;text-align:center!important;position: sticky;top: 11%;}
+.left-menu h3::before {content:"https://11010000";font-size:10px!important}
+.left-menu h3 {font-size:0px!important;font-weight:bold;text-transform:uppercase!important;background:#000!important;padding:5px!important;margin-top:10px!important;margin-bottom:1px!important;text-align:center;color:#ccc!important;border:1px dashed #ccc!important;}
+
+/*редактировать удалить и окно ввода комментария*/
+.post-opt a,.post-opt span,.row,[href="#"] {font-size:9px;font-weight:bold;text-transform:lowercase!important;}
+.textareabg,.alert-success{width:80%;margin:auto!important;font-width:bold!important;text-transform:lowercase!important;background:#000;font-size:9px;padding:15px!important}
+.tag_bar {font-size:15px!important;}
+.messageform p,.messageform__taglinks,label,.textareabg div {font-size:9px;font-weight:bold;}
+
+/*лайки и прочая лабуда*/
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {color:#666!important;transition: 0.3s;}
+.fa-heart:hover {color:#ccc!important;transition: 0.3s;}
+.fa-retweet:hover {color:#ccc!important;transition: 0.3s;}
+.fa-bookmark:hover {color:#ccc!important;transition: 0.3s;}
+.fa-trash-alt:hover {color:#ccc!important;transition: 0.3s;}
+.fa-exclamation-triangle:hover {color:#ccc!important;transition: 0.3s;}
+.fa-quote-left:hover {color:#ccc!important;transition: 0.3s;}
+
+/*кнопки прокомментировать редактировать и прочее*/
+.postdesc {border-radius:0px!important;border:1px solid #000}
+
+input {color:#666!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #666!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+input:hover {color:#ccc!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #ccc!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+
+form.messageform select {color:#666!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #666!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+form.messageform select:hover {color:#ccc!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #ccc!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+
+form.messageform option {color:#666!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #666!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+form.messageform option:hover {color:#ccc!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #ccc!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+
+.btn-secondary {color:#666!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #666!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+.btn-secondary:hover {color:#ccc!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #ccc!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+
+.btn-primary {color:#666!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #666!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+.btn-primary:hover {color:#ccc!important;padding:5px;background:#000;text-transform:uppercase!important;border:1px solid #ccc!important;border-radius:0px!important;transition: 0.3s;margin-top:5px;margin-bottom:5px;}
+
+/*скролл*/
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
+::-webkit-scrollbar {width: 17px;height: 17px;background-color: #ccc;}
+::-webkit-scrollbar-thumb {border: 7px solid #000;background-color: #ccc;min-height: 24px;min-width: 24px;}
+::-webkit-scrollbar-track {border: 8px solid #000;background-color: #ccc;}
+
+/*аудио*/
+div#beon-fnplayer {background: transparent;margin-bottom: 5px;margin-top:15px}
+#fnplayer-slider > span {font-size:0px!important;} 
+#fnplayer-slider {background-color: #ccc!important;height:2px}
+#fnplayer-slider-inner {width:0%;background-color: #ccc;height:2px;}
+#fnplayer-stop {border:0;background: #ccc!important;margin-bottom: 1px;}
+#fnplayer-play {border-color:transparent transparent transparent #ccc!important;margin-bottom: 1px;}
+div#fnplayer-volume {display:none!important}
+
+/*окно загрузки изображений и прочее*/
+.modal-content {border-radius:0px;box-shadow: 0 0 10px #000!important;border:1px solid #000!important;padding:15px;background:#000;}
+h5.modal-title {text-transform:uppercase!important;font-weight:bold;}
+div.modal-header {border-bottom:2px solid #ccc!important;}
+div.modal-footer {border-top:2px solid #ccc!important;}
+.alert,select#addtag-img-size,select#addtag-img-align,textarea#addtag-img-urls,select#upload-img-size,select#upload-img-align,p.clipboard-image-field,select.cb_img-size,select.cb_img-align,textarea#addtag-audio-urls,textarea#addtag-video-urls,textarea#add-inst-urls,select#addblog__select {border:1px solid #ccc!important;border-radius:0px}
+.btn-outline-primary {border:1px solid #ccc!important;border-radius:0px}
+h5 {text-transform:uppercase!important;}
+button.close {color:#ccc!important}
+
+@media (max-width: 800px) {
+div.blog__about::before {content: ''; height: 350px;display: block;background: url(https://i.ibb.co/twdTrMrQ/111.png)no-repeat center/100%;background-blend-mode:screen;margin-bottom:15px;margin-top:5px;border:1px solid #ccc!important;}
+div#app {width:95%;margin:auto}
+.py-4 {margin:auto!important}
+div.comment-box {width:90%;margin:auto}
+.textareabg,.alert-success{width:100%;margin:auto!important;}
+div.crumbs {width:95%;margin:auto}
+.bodybg {background-color:#000;background-size:150%}
+.left-menu {position:static;width:100%;overflow:visible;height:auto;padding:10px!important}
+.menu__box {width:auto!important;height:auto!important;background:#000;text-transform:lowercase!important;padding:5px;margin-top:13%;margin-right:2.9%;box-shadow:none!important;}
+.menu__item {font-size:15px;font-weight:bold;right:5%}
+ul {list-style-type:""!important; text-transform: lowercase;font-size:0px!important}
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:15px}
+
+[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none!important}
+}
