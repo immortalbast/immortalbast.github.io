@@ -79,7 +79,7 @@ div.sign {display:none!important}
 /*вставная ссылка*/
 .link-container {color:#ccc!important;text-decoration: none!important;transition: 0.3s;}
 .link-container:hover {color:#ccc!important; transition: 0.3s;}
-.fa-link::before {content:"";font-size:10px!important}
+.fa-link::before {content:" - ";font-size:10px!important}
 
 /*верхнее меню*/
 ul {list-style-type:"- "!important; text-transform: lowercase!important;;}
