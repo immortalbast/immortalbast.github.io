@@ -130,7 +130,7 @@ form.messageform option:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 
 
 /*редактировать удалить и окно ввода комментария*/
 .post-opt a,.post-opt span,.row,[href="#"] {font-weight:bold;text-transform:lowercase!important;}
-.textareabg,.alert-success{text-transform:lowercase!important;font-size:10px;background: url(https://pic.maxiol.com/images2/1754149581.3165279544.image10.png)repeat left top;background-size:50%;padding:10px;border-radius:15px;}
+.textareabg,.alert-success{text-transform:lowercase!important;background: url(https://pic.maxiol.com/images2/1754149581.3165279544.image10.png)repeat left top;background-size:50%;padding:10px;border-radius:15px;}
 .tag_bar {font-size:15px!important;}
 .messageform p,.messageform__taglinks,label,.textareabg div {font-weight:bold;}
 
