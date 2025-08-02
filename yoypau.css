@@ -129,10 +129,10 @@ form.messageform option:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 
 .btn-primary:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
 
 /*редактировать удалить и окно ввода комментария*/
-.post-opt a,.post-opt span,.row,[href="#"] {font-size:10px;font-weight:bold;text-transform:lowercase!important;}
+.post-opt a,.post-opt span,.row,[href="#"] {font-weight:bold;text-transform:lowercase!important;}
 .textareabg,.alert-success{text-transform:lowercase!important;font-size:10px;background: url(https://pic.maxiol.com/images2/1754149581.3165279544.image10.png)repeat left top;background-size:50%;padding:10px;border-radius:15px;}
 .tag_bar {font-size:15px!important;}
-.messageform p,.messageform__taglinks,label,.textareabg div {font-size:10px;font-weight:bold;}
+.messageform p,.messageform__taglinks,label,.textareabg div {font-weight:bold;}
 
 /*скролл*/
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
