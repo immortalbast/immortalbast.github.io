@@ -111,7 +111,7 @@ p.quotation {font-size: 8px!important;font-weight:bold!important;border-color:#f
 .fa-quote-left:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
 
 /*кнопки прокомментировать редактировать и прочее*/
-.postdesc {border-radius:0px!important;border:1px solid #000}
+.postdesc {border-radius:0px!important;border:1px solid #000;font-size:15px!important}
 
 input {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
 input:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
