@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap");
+
+div#page__admincontact {display:none!important}
+div#footer {display:none!important}
+div#page__rendertime {display:none!important}
+[href="#footer"] {display:none!important}
+span.user-drop-menu {display:none!important}
+div.m2 {display:none!important}
+div.left-menu__friends {display:none!important}
+div.blog__last-comments {display:none!important}
+div.blog_total_counter {display:none!important}
+span.readertime {display:none!important}
+div.community__moders {display:none!important}
+.left-menu form {display:none!important}
+.left-menu [src="//beon.fun/i/design-off.png"] {display:none!important}
+a.blog::before {display:none!important}
+a.tag::before {display:none!important}
+span.post-title-date {display:none!important}
+div.comment-box h2 {display:none!important}
+img.flag {display:none!important}
+
+/*общее*/
+.bodybg {background: url(https://pic.maxiol.com/images2/1754079853.3165279481.seamlessgrungeback.png)repeat center top fixed;background-size:95%;}
+div#app {width:95%;margin:auto;}
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#6e6e6e!important;transition: 0.3s;}
+a:hover {color:#ff00ae!important;transition: 0.3s;}
+p {margin-top: 0;margin-bottom: 0;}
+
+/*верхнее меню*/
+.navbar {background: url(https://pic.maxiol.com/images2/1754166526.3165279544..png)repeat center top;background-size:100%;text-transform:lowercase;border-radius: 15px;position:sticky;top:3px;z-index:3;}
+nav.navbar a {color:#4802b7!important}
+nav.navbar a:hover {color:#ff00ae!important}
+.navbar-brand {font-size: 0px;background: url(https://pic.maxiol.com/images2/1754147599.3165279544.12346.png)no-repeat center;background-size:contain;width: 200px;height: 70px;display:block!important;}
+ul {list-style-type:"# "!important;color:#ffe500}
+
+/*пагинация*/
+span.crumb-item {font-size:0px!important}
+.pagination {font-size: 0;}
+.pagination a {font-size:0px!important}
+div.crumbs {background: url(https://pic.maxiol.com/images2/1754137996.3165279544..png)repeat center top;background-size:30%;background-color: rgba(0, 0, 0, 0.1);text-transform:uppercase!important;padding:0px 15px 0px 15px;border-radius:15px;font-weight:bold;}
+.pagination a::before {content:" # ";font-size:15px!important;}
+
+/*боковое меню*/
+.left-menu {background-color: rgba(243, 243, 243, 0.10);backdrop-filter: blur(10px)!important;border:none!important;text-transform:lowercase!important;border-radius: 15px;padding:3px!important;overflow: auto;height:600px!important;position:sticky;top:13%;}
+.left-menu::-webkit-scrollbar {width:0;height:0;}
+.left-menu::-webkit-scrollbar-thumb {background:transparent;}
+.left-menu h3 {background: url(https://pic.maxiol.com/images2/1754137996.3165279544..png)repeat center top;background-size:50%;background-color: rgba(0, 0, 0, 0.3)!important;padding:3px;text-align:center!important;font-size:10px!important;color:#f3f3f3!important;font-family: "Comic Relief", system-ui;font-weight: bold;border-radius: 15px;}
+
+div.blog__about h3 {font-size:0px!important;}
+div.blog__about h3::before {content:"о yoy pau";font-size:10px!important}
+
+div.community__members h3 {font-size:0px!important;}
+div.community__members h3::before {content:"наши мастера-пунини";font-size:10px!important}
+
+div.blog__read-me div.left-menu-text {display: inline-block;}
+div.blog__read-me h3 {font-size:0px!important;}
+div.blog__read-me h3::before {content:"нас читают";font-size:10px!important}
+
+div.blog__tags a {background-color: rgba(72, 2, 183, 0.10);border-radius:15px;padding:1px 5px 1px 5px;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s;font-family: "Comic Relief", system-ui;}
+div.blog__tags a:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset;transition: 0.3s;color:rgba(82, 82, 82, 0.3)!important;}
+div.blog__tags div.left-menu-text {font-size:0px!important;}
+div.blog__tags h3 {font-size:0px!important;}
+div.blog__tags h3::before {content:"категории";font-size:10px!important}
+
+/*дата*/
+div.datebg {background: url(https://pic.maxiol.com/images2/1754137996.3165279544..png)repeat center top;background-size:30%;background-color: rgba(0, 0, 0, 0.1);text-transform:lowercase!important;padding:0px!important;border-radius:15px;font-family: "Comic Relief", system-ui;color:#f3f3f3!important;text-align:center!important;font-size:10px!important;}
+
+/*пост и коммы*/
+div.post-header {background: url(https://pic.maxiol.com/images2/1754137996.3165279544..png)repeat center top;background-size:50%;background-color: rgba(0, 0, 0, 0.3)!important;padding:0px 15px 0px 15px;font-size:10px!important;color:#ffe500!important;border-radius: 15px;margin-bottom:5px!important;overflow:auto;}
+div.post-header a {color:#f3f3f3!important;}
+div.post-header a:hover {color:#4802b7!important;transition: 0.3s;}
+div.post-header::after {content: " с любовью, yoy pau <3 ";font-size: 10px !important;float:right!important;margin-top:3px;background: -webkit-linear-gradient(45deg, rgb(255, 229, 0) 15%, rgb(255, 0, 174), rgb(72, 2, 183) 100%);background: -moz-linear-gradient(45deg, rgb(255, 229, 0) 15%, rgb(255, 0, 174), rgb(72, 2, 183) 100%);background: linear-gradient(45deg, rgb(255, 229, 0) 15%, rgb(255, 0, 174), rgb(72, 2, 183) 100%);-webkit-background-clip: text;color:transparent;}
+div.post-row {background: url(https://pic.maxiol.com/images2/1754156188.3165279544.heart.png)no-repeat right top;background-size:5%;}
+
+div.post-text {background: url(https://pic.maxiol.com/images2/1754149581.3165279544.image10.png)repeat left top;background-size:50%;padding:10px;border-radius:15px;}
+div.post-opt {text-transform:lowercase!important;font-family: "Comic Relief", system-ui;}
+a.tag {background-color: rgba(72, 2, 183, 0.10);border-radius:15px;padding:1px 5px 1px 5px;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s;}
+a.tag:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset;transition: 0.3s;color:rgba(82, 82, 82, 0.3)!important;}
+
+div.post-avatar {text-align:center!important;font-size:10px!important;font-family: "Comic Relief", system-ui;}
+.sign {color:#000!important;}
+
+div.comment-header {background: url(https://pic.maxiol.com/images2/1754137996.3165279544..png)repeat center top;background-size:50%;background-color: rgba(0, 0, 0, 0.3)!important;padding:0px 15px 0px 15px;font-size:10px!important;color:#ffe500!important;border-radius: 15px;margin-bottom:5px!important;overflow:auto;}
+div.comment-header a {color:#f3f3f3!important;}
+div.comment-header a:hover {color:#4802b7!important;transition: 0.3s;}
+
+div.comment-base {background: url(https://pic.maxiol.com/images2/1754149581.3165279544.image10.png)repeat left top;background-size:50%;padding:10px;border-radius:15px;}
+div.comment-row{background: url(https://pic.maxiol.com/images2/1754158805.3165279544.sticker.png)no-repeat right top;background-size:5%;}
+
+/*цитата*/
+p.quotation {font-size: 8px!important;font-weight:bold!important;border-color:#ff00ae;margin:0px!important;padding:0px 0px 0px 5px!important}
+
+/*вставная ссылка*/
+.link-container {color:#4802b7!important;text-decoration: none!important;transition: 0.3s;}
+.link-container:hover {color:#ff00ae!important; transition: 0.3s;}
+.fa-link::before {content:"#";font-size:10px!important}
+
+/*лайки и прочая лабуда*/
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {background: -webkit-linear-gradient(45deg, rgb(255, 229, 0) 15%, rgb(255, 0, 174), rgb(72, 2, 183) 100%);background: -moz-linear-gradient(45deg, rgb(255, 229, 0) 15%, rgb(255, 0, 174), rgb(72, 2, 183) 100%);background: linear-gradient(45deg, rgb(255, 229, 0) 15%, rgb(255, 0, 174), rgb(72, 2, 183) 100%);-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+.fa-heart:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+.fa-retweet:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+.fa-bookmark:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+.fa-trash-alt:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+.fa-exclamation-triangle:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+.fa-quote-left:hover {background: -webkit-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: -moz-linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));background: linear-gradient(45deg, rgb(72, 2, 183), rgb(255, 0, 174), rgb(255, 229, 0));-webkit-background-clip: text;color:transparent;transition: 0.3s;}
+
+/*кнопки прокомментировать редактировать и прочее*/
+.postdesc {border-radius:0px!important;border:1px solid #000}
+
+input {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
+input:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
+
+form.messageform select {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
+form.messageform select:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
+
+form.messageform option {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
+form.messageform option:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
+
+.btn-secondary {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
+.btn-secondary:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
+
+.btn-primary {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
+.btn-primary:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
+
+/*редактировать удалить и окно ввода комментария*/
+.post-opt a,.post-opt span,.row,[href="#"] {font-size:10px;font-weight:bold;text-transform:lowercase!important;}
+.textareabg,.alert-success{text-transform:lowercase!important;font-size:10px;background: url(https://pic.maxiol.com/images2/1754149581.3165279544.image10.png)repeat left top;background-size:50%;padding:10px;border-radius:15px;}
+.tag_bar {font-size:15px!important;}
+.messageform p,.messageform__taglinks,label,.textareabg div {font-size:10px;font-weight:bold;}
+
+/*скролл*/
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
+::-webkit-scrollbar {width: 17px;height: 17px;background-color: #ffe500;border-radius:15px}
+::-webkit-scrollbar-thumb {border: 7px solid #f3f3f3;background-color: #ffe500;min-height: 24px;min-width: 24px;border-radius:15px}
+::-webkit-scrollbar-track {border: 8px solid #f3f3f3;background-color: #ffe500;border-radius:15px}
+
+/*окно загрузки изображений и прочее*/
+.modal-content {background: url(https://pic.maxiol.com/images2/1754167481.3165279544.098.png)repeat center top fixed;background-size:95%;border:none!important;text-transform:lowercase!important;border-radius: 15px;padding:3px!important;}
+h5.modal-title {text-transform:uppercase!important;font-weight:bold;color:#ff00ae!important}
+div.modal-header {border-bottom:none!important;}
+div.modal-footer {border-top:none!important;}
+.alert,select#addtag-img-size,select#addtag-img-align,textarea#addtag-img-urls,select#upload-img-size,select#upload-img-align,p.clipboard-image-field,select.cb_img-size,select.cb_img-align,textarea#addtag-audio-urls,textarea#addtag-video-urls,textarea#add-inst-urls,select#addblog__select,.btn-outline-primary {background-color: rgba(72, 2, 183, 0.10)!important;border-radius:15px!important;padding:1px 5px 1px 5px!important;margin-left:1px!important;-webkit-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: 4px 4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;color:rgba(82, 82, 82, 0.5)!important;transition: 0.3s!important;font-family: "Comic Relief", system-ui!important;border:none!important;text-transform:lowercase!important;}
+.alert,select#addtag-img-size,select#addtag-img-align,textarea#addtag-img-urls,select#upload-img-size,select#upload-img-align,p.clipboard-image-field,select.cb_img-size,select.cb_img-align,textarea#addtag-audio-urls,textarea#addtag-video-urls,textarea#add-inst-urls,select#addblog__select,.btn-outline-primary:hover {-webkit-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;-moz-box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;box-shadow: -4px -4px 10px 0px rgba(255, 0, 174, 0.1) inset!important;transition: 0.3s!important;color:rgba(82, 82, 82, 0.3)!important;border:none!important;text-transform:lowercase!important;}
+.btn-outline-primary {border:none!important;border-radius:15px!important}
+h5 {text-transform:uppercase!important;color:#ffe500!important}
+button.close {color:#ffe500!important}
+
+/*иконки для всех*/
+
+a.user::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754172266.2160872037.group3.png);background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/mrazobast"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754174510.2160872044.7acd0fc86145e890fe.gif)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/piuchan"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754171346.2160872037.mp4agadyiaaoyaqug.gif)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/uglyhot"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754172051.2160872037.11.gif)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/4aem"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754172099.2160872037.zobrajennya2025080.png)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/kisskriss1"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754172148.2160872037.mp4agad81aaaomneo.gif)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/jqsl"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754172215.2160872037..png)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+@media (max-width: 1000px) {
+.bodybg {background:none!important}
+div#app {width:100%!important;margin:auto!important;}
+.left-menu {overflow:visible;height:auto!important;position:static;top:0%;}
+
+.navbar {position:sticky;top:1px;z-index:3;}
+.navbar-brand {width: 50px;height: 50px;}
+ul {list-style-type:none!important;}
+
+.menu__box {background: url(https://pic.maxiol.com/images2/1754166526.3165279544..png)repeat center top;background-size:100%;width:auto!important;height:auto!important;text-transform:lowercase!important;padding:5px;margin-top:18%;margin-right:2.8%;box-shadow:none!important;overflow: hidden;box-sizing: border-box;border-radius:15px!important}
+.menu__item {font-size:15px;right:3%}
+
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:15px}
+
+[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none!important}
+}
