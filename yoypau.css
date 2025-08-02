@@ -167,6 +167,10 @@ a.user::before {content: "";background-image: url(https://pic.maxiol.com/images2
 
 [href="//beon.fun/users/jqsl"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754172215.2160872037..png)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
 
+[href="//beon.fun/users/mayaudara"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754175593.3165279544.pngagad2tqaatg7wug.png)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
+[href="//beon.fun/users/lulu"]::before {content: "";background-image: url(https://pic.maxiol.com/images2/1754175750.3165279544.7.gif)!important;background-size:15px;height:15px;width:15px;display: inline-flex;}
+
 @media (max-width: 1000px) {
 .bodybg {background:none!important}
 div#app {width:100%!important;margin:auto!important;}
