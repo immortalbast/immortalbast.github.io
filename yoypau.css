@@ -88,7 +88,7 @@ div.comment-base {background: url(https://pic.maxiol.com/images2/1754149581.3165
 div.comment-row{background: url(https://pic.maxiol.com/images2/1754158805.3165279544.sticker.png)no-repeat right top;background-size:5%;}
 
 /*цитата*/
-p.quotation {font-size: 8px!important;font-weight:bold!important;border-color:#ff00ae;margin:0px!important;padding:0px 0px 0px 5px!important}
+p.quotation {font-weight:bold!important;border-color:#ff00ae;margin:0px!important;padding:0px 0px 0px 5px!important}
 
 /*вставная ссылка*/
 .link-container {color:#4802b7!important;text-decoration: none!important;transition: 0.3s;}
