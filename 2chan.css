@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*---------- начало плеера ----------*/
+
+/*заменить основное изображение в плеере в теге div#beon-fnplayer между круглых скобок вставить ссылку-url на свое изображение*/
+div#beon-fnplayer {position: relative;top: 0px;left: 0px;width: 100%;margin: 0px;padding-top: 160px;padding-bottom: 15px;image-rendering: -webkit-optimize-contrast;background: url(https://pic.maxiol.com/images2/1758305591.3165279952.9a9491e2b57ee90647.jpg) no-repeat center;background-size: cover;background-color: black;}
+
+/*заменить изображение миниатюру в плеере в теге div#fnplayer-slider span между круглых скобок вставить ссылку-url на свое изображение*/
+div#fnplayer-slider span {background: url(https://pic.maxiol.com/images2/1758305619.3165279952.5ae98512b379197bd1.jpg) no-repeat center / cover;font-size: 0;position: absolute;top: -135px;left: 2px;width: 30px;height: 30px;border-radius: 100%;opacity: 0.7;transition: 0.3s;}
+
+/*заменить текст возле миниатюры в плеере в теге div#fnplayer-slider span:before между кавычек вставить свой текст*/
+div#fnplayer-slider span:before {content: 'ベオンファン';position: absolute;left: 44px;top: 8px;color: #f4f4f4;font-size: 14px;display: block;white-space: nowrap;}
+
+textarea#csseditortext {max-height:400px;overflow-y:auto!important;}
+div#beon-fnplayer:hover {transition: 0.3s;}
+div#beon-fnplayer {transition: 0.3s;}
+div#fnplayer-slider {position:absolute;bottom:32px;left:1%;right:5px;width:98%;margin:0px!important;height:3px;background: #ffffffad;border-radius: 5px;}
+#fnplayer-slider-inner {background-color: #ff3939 !important;height: 3px !important;border-radius: 5px;}
+button#fnplayer-play {margin-left: 11px !important;background: url(https://i1.beon.fun/21/15/1521/97/79497/treugolnik.png) no-repeat center / contain;border: none;width: 10px;height: 12px;}
+button#fnplayer-stop {height: 10px;width: 10px;background: #f4f4f4;margin-left: 12px !important;}
+#fnplayer-volume-mask {border: none !important;}
+div#fnplayer-volume-inner {height: 3px;background: white;position: relative;border-radius: 5px;}
+div#fnplayer-volume-inner:after {content: 'c';color: transparent;position: absolute;top: -3px;right: -2px;background: white;width: 9px;height: 9px;border-radius: 100%;display: block;}
+button#fnplayer-play:before {content: 's';color: transparent;position: absolute;top: 72px;left: 0;right: 0;width: 30px;height: 30px;margin: auto;background: url(https://i1.beon.fun/21/15/1521/97/79497/treugolnik.png) no-repeat center;background-size: 10px 12px;border-radius: 100%;}
+#fnplayer-play.paused:before {content: 'pa';color: white;position: absolute;border-radius: unset;border-style: double;border-width: 0px 0 0px 10px;background: transparent;width: 10px;height: 12px;font-size: 0px;margin-top: 7px;}
+div#fnplayer-volume {position: relative;width: 40px;margin-left: 35px !important;background: #ffffff73 !important;height: 3px;border-radius: 5px;}
+div#fnplayer-volume:before {content: 'v';background: url(https://i1.beon.fun/21/15/1521/1/79501/uhjv.png) no-repeat center / contain;position: absolute;left: -20px;top: -6px;width: 15px;height: 15px;font-size: 0px;}
+#fnplayer-play {border-color: transparent transparent transparent #ffffffd1 !important;;}
+#fnplayer-play.paused {border-style: double;border-width: 0px 0 0px 10px;background: transparent;}
+button#fnplayer-play,button#fnplayer-stop,div#fnplayer-volume {opacity: 0.8;}
+div#beon-fnplayer:hover button#fnplayer-play,div#beon-fnplayer:hover button#fnplayer-stop,div#beon-fnplayer:hover div#fnplayer-volume,div#beon-fnplayer:hover div#fnplayer-slider span {opacity: 1;transition: 0.3s;}
+
+/*---------- конец плеера ----------*/
+
+/*удалено/скрыто*/
+div#footer,.footer__infolinks,#page__admincontact,div#page__rendertime,.text-center {font-size:0;}
+div#footer {display:none!important}
+[href="#footer"] {display:none!important}
+div.m2 {display:none!important}
+.left-menu form {display:none!important}
+.left-menu [src="//beon.fun/i/design-off.png"] {display:none!important}
+img.flag {display:none!important}
+div.blog_total_counter {display:none!important}
+div.datebg {display:none!important}
+.left-menu__friends span.post-opt {display:none!important}
+.blog__read-me span.readertime {display:none!important}
+a.blog::before {display:none!important}
+.blog__iread {display:none!important}
+.blog__last-comments {display:none!important}
+.left-menu__friends {display:none!important}
+
+/*общее*/
+div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#800000!important;transition: 0.3s;font-family: "Roboto", sans-serif;}
+a {color:#0000ee!important;transition: 0.3s;text-decoration:underline!important;transition: 0.3s;}
+a:hover {color:#ff0000!important;transition: 0.3s;}
+p {margin-top: 0;margin-bottom: 0;}
+body.bodybg {background: url(https://pic.maxiol.com/images2/1755990673.2998072631.ba.gif)repeat left top;background-size:5%;}
+div#app {width:85%;margin:auto;background-color:#ffffee;padding:10px;}
+
+/*юзер*/
+a.user {color:#117743!important;text-decoration:none!important;}
+div.sign {color:#cc1105!important;}
+
+/*пост и коммы*/
+div.post-content {background-color:#f0e0d6;padding:10px;margin:0px 0px 20px 10px!important;}
+div.post-header,.post-title-date {color:#800000!important;}
+div.post-header .post-title {color:#cc1105!important;text-decoration:none!important;}
+div.comment-box {width:70%!important;margin:auto!important}
+div.comment-content {background-color:#f0e0d6;padding:10px;}
+
+/*лайки и прочая лабуда*/
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {color:#0000ee!important;transition: 0.3s;}
+.fa-heart:hover {color:#ff0000!important;transition: 0.3s;}
+.fa-retweet:hover {color:#ff0000!important;transition: 0.3s;}
+.fa-bookmark:hover {color:#ff0000!important;transition: 0.3s;}
+.fa-trash-alt:hover {color:#ff0000!important;transition: 0.3s;}
+.fa-exclamation-triangle:hover {color:#ff0000!important;transition: 0.3s;}
+.fa-quote-left:hover {color:#ff0000!important;transition: 0.3s;}
+
+/*боковое меню*/
+.left-menu {background-color:#ffffff;border:1px solid #000!important;border-radius:0px!important;padding:5px!important;overflow:auto;height:720px!important;position:sticky;top:1.8%;}
+.left-menu::-webkit-scrollbar {width:0;height:0;}
+.left-menu::-webkit-scrollbar-thumb {background:transparent;}
+.left-menu h3 {font-size:0px!important;background-color:#ffffff!important;color:#cc0000!important;text-align:center;margin-top:10px!important;margin-bottom:10px!important;font-weight: bold;}
+.left-menu h3::before {content:"ベオン☆ファン";font-size:15px!important}
+.left-menu__friends div.left-menu-text {display: inline-block;}
+.blog__read-me div.left-menu-text {display: inline-block;}
+
+/*верхнее меню*/
+.navbar {background-color:#ffffff!important;padding:5px!important;border-radius:0px!important;}
+ul {list-style-type:"☆ "!important;color:#cc0000!important;}
+
+/*пагинация*/
+div.crumbs {background-color:#eeaa88;border-radius:0px;}
+span.crumb-item {color:#ffffff;}
+
+/*цитата*/
+p.quotation {border-color:#800000;margin:0px!important;padding:0px 0px 0px 5px!important}
+
+/*вставная ссылка*/
+.link-container {color:#0000ee!important;text-decoration: none!important;transition: 0.3s;}
+.link-container:hover {color:#ff0000!important; transition: 0.3s;}
+.fa-link::before {content:"☆";font-size:10px!important}
+
+/*кнопки прокомментировать редактировать и прочее*/
+.postdesc {border-radius:0px!important;border:1px solid #000!important;font-size:15px!important}
+
+input {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#0000ee!important;transition: 0.3s;}
+input:hover {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#ff0000!important;transition: 0.3s;}
+
+form.messageform select {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#0000ee!important;transition: 0.3s;}
+form.messageform select:hover {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#ff0000!important;transition: 0.3s;}
+
+form.messageform option {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#0000ee!important;transition: 0.3s;}
+form.messageform option:hover {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#ff0000!important;transition: 0.3s;}
+
+.btn-secondary {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#0000ee!important;transition: 0.3s;}
+.btn-secondary:hover {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#ff0000!important;transition: 0.3s;}
+
+.btn-primary {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#0000ee!important;transition: 0.3s;}
+.btn-primary:hover {background-color:#ffffff!important;border-radius:0px!important;border:1px solid #000;color:#ff0000!important;transition: 0.3s;}
+
+/*редактировать удалить и окно ввода комментария*/
+.textareabg,.alert-success{background-color:#ffffff!important;padding:10px!important;border-radius:0px!important;}
+.tag_bar {font-size:15px!important;}
+
+/*скролл*/
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
+::-webkit-scrollbar {background-color: #e04000;border-radius:15px}
+::-webkit-scrollbar-thumb {border: 7px solid #e04000;background-color: #fff;min-height: 24px;min-width: 24px;}
+::-webkit-scrollbar-track {border: 8px solid #e04000;background-color: #e04000;}
+
+/*окно загрузки изображений и прочее*/
+.modal-content {background-color:#fff!important;border:1px solid #000!important;border-radius:0px;padding:10px!important;}
+h5.modal-title {color:#cc0000!important}
+div.modal-header {border-bottom:1px solid #000!important;}
+div.modal-footer {border-top:1px solid #000!important;}
+.alert,select#addtag-img-size,select#addtag-img-align,textarea#addtag-img-urls,select#upload-img-size,select#upload-img-align,p.clipboard-image-field,select.cb_img-size,select.cb_img-align,textarea#addtag-audio-urls,textarea#addtag-video-urls,textarea#add-inst-urls,select#addblog__select,.btn-outline-primary {background-color:#fff!important;padding:1px 5px 1px 5px!important;border:1px solid #000!important;}
+.btn-outline-primary {border:1px solid #000!important;border-radius:0px!important}
+h5 {font-weight: bold;text-transform:uppercase!important;color:#cc0000!important}
+button.close {color:#0000ee!important}
+
+@media (max-width: 800px) {
+div#app {width:100%!important;padding:10px;margin:auto!important;overflow:visible;height:auto!important;position:static;top:0%;}
+.left-menu {overflow:visible;height:auto!important;position:static;top:0%;}
+
+.navbar {position:sticky;top:0px;z-index:3;}
+ul {list-style-type:none!important;}
+
+div.post-content {margin:10px 0px 10px 0px!important;}
+div.comment-box {width:100%!important;margin:auto!important}
+
+.menu__box {background-color:#fff!important;width:auto!important;height:auto!important;padding:10px;margin-top:12%;margin-right:2.5%;box-shadow:none!important;}
+.menu__item {font-size:15px;right:3%}
+
+.post-avatar img {width:80px!important}
+
+.fa-heart,.fa-retweet,.fa-bookmark,.fa-trash-alt,.fa-exclamation-triangle,.fa-quote-left {font-size:15px}
+
+[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none!important}
+}
